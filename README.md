@@ -1,46 +1,36 @@
-# OpenMRS
-Techno Study Batch 4 Group 18 Cuma Projesi. Biz bu projede JAVA yi ve Test Tool lari kullandik.
+# OpenMRS TestNG Project
+
+# Description
+OpenMRS is an open-source electronic health record system used for managing, storing, and sharing patient data in healthcare facilities. It is specifically designed to improve healthcare services, particularly in low-income countries. This platform supports crucial functionalities such as digitizing medical records, patient tracking, treatment planning, and analysis of health data.
+
+The OpenMRS Project is an open-source initiative developed by a community. Software developers, healthcare professionals, and volunteers collaborate within the project to enhance the management of healthcare data. OpenMRS offers a user-friendly interface and is adaptable for various healthcare organizations.
+
+The environment we will be using is located at https://openmrs.org. We'll be working within the subdomain https://demo.openmrs.org/.
+
+
+
+
+
+
+
 
 Domain: https://openmrs.org/
 
-Team
-  Abdymalik Isakov - QA Lead
-  
-  Şenol Doğan - QA
-  
-  Onur Yüksek - QA
-  
-  Murat Yarış - QA
-  
-  Tuba Çağlar - QA
-  
-  Emre Kargı  - QA
+* Team
 
-  #Başlarken
-  Başlamanın en kolay yolu depoyu klonlamaktır:
-  # File > New > Project From Version Control 
-# URL yi kopyala
-https://github.com/isakov-m/TechnoStudyTR.git
+*  Abdymalik Isakov QA
 
-# Projeyi Intellij de aç
-# Projenin JDK sını seç
-jdk1.8
+* Şenol Doğan -    QA
 
-# .gitignore dosyasini acip oraya .idea ve *.iml yi ekleyecegiz, daha once eklenmisse dokunmayacagiz.
+* Onur Yüksek -    QA
+
+* Murat Yarış -    QA
+
+* Emre Kargı  -    QA
 
 
-# İntellijide Module ayarlarını aç
-# Maven den Seleniumu indir
-org.seleniumhq.selenium:selenium-java:4.11.0
-
-# Maven den Testng yi indir
-org.testng:testng:6.14.3
-
-# Maven den slf4j yi indir
-org.slf4j:slf4j-nop:1.7.0
-
-# Maven den commons.io yu indir
-commons-io:commons-io:2.11.0
-
-# Main.java ya sağ tıkla
-Run 'Main'
+# Used Tools
+* Java jdk1.8
+* Intellij
+* Selenium org.seleniumhq.selenium:selenium-java:4.11.0
+* TestNG   org.testng:testng:6.14.3
